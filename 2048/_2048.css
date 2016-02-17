@@ -1,0 +1,76 @@
+#grid {
+    height: 452px;
+    width:452px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 98px;
+    width: 98px;
+    border: 6px solid red;
+    font-weight: 600;
+}
+
+.empty {
+    background: yellow;
+    color:yellow;
+}
+
+.two {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+    
+}
+.four {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.eight {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.onesix {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.threetwo {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.sixfour {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.onetwoeight {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.twofivesix {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.fiveonetwo {
+    text-align: center;
+    line-height: 80px;
+    background: gray;
+}
+.onezerotwofour {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+.twozerofoureight {
+    background: gray;
+    text-align: center;
+    line-height: 80px;
+}
+    

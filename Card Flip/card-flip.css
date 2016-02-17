@@ -1,0 +1,41 @@
+.view {
+    perspective: 500px;
+    transform-origin:100px 100px;
+}
+
+.face {
+    height: 300px;
+    width:200px;
+    text-align:center;
+    line-height:300px;
+    backface-visibility:hidden;
+  
+     
+}
+.one {
+    background-color: red;
+    z-index=1;
+    
+}
+.two {
+    background-color: gray;
+    transform:rotateY(180deg) translateY(-300px);
+    z-index=-1;
+
+}
+
+@keyframes rotate3d {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.object {
+  animation: rotate3d 3s infinite;
+  transform-style: preserve-3d;
+}
+
+
+

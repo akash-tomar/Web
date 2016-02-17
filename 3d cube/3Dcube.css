@@ -1,0 +1,52 @@
+.view {
+    perspective: 500px;
+}
+
+.face {
+    height: 200px;
+    width:200px;
+    position:absolute;
+   // backface-visibility:hidden;
+}
+.object {
+    display:flex;
+    justify-content:center;
+    
+}
+
+.one {
+    background-color: black;
+}
+.two {
+     background-color: blue;
+     transform:rotateY(90deg) translateX(100px) translateZ(100px);
+}
+.three {
+    background-color: yellow;
+    transform: rotateY(90deg) translateX(100px) translateZ(-100px)
+}
+.four {
+     background-color: red;
+     transform:translateZ(-200px);
+}
+.five {
+    background-color: green;
+    transform: rotateX(90deg) translateY(-100px) translateZ(-100px);
+}
+.six {
+     background-color: purple;
+     transform: rotateX(90deg) translateY(-100px) translateZ(100px);
+}
+
+@keyframes rotate3d {
+  from {
+    transform: rotateY(0) rotateX(45deg) rotateZ(45deg);
+  }
+  to {
+    transform: rotateY(360deg) rotateX(45deg) rotateZ(45deg);
+  }
+}
+.object {
+  animation: rotate3d 3s infinite;
+  transform-style: preserve-3d;
+}

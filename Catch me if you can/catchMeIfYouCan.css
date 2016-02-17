@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    position: relative;
+    max-width: 1000px;
+    max-height: 800px;
+}
+
+
+#child {
+    height: 50px;
+    width: 50px;
+    background:red;
+    border:1px solid black;
+    box-shadow: 2px;
+    
+}
+
+
+

@@ -1,0 +1,36 @@
+body > div > img:hover {
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    
+    display: block !important;
+    height: 200px;
+    width:auto;
+    transition: transform 2s, height 2s, width 2s;
+    
+}
+
+/*#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid rgb(240, 229, 19);
+	opacity: 0.5;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    display: none;
+}*/
+
+img:hover {
+    transform : rotate(360deg);
+    height: 500px;
+    width:auto;
+}

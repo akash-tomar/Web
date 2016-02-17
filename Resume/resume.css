@@ -1,0 +1,198 @@
+body {
+    //background-image: url("body-bg.png");
+    //align-content: stretch;
+    background-color: grey;
+    //margin: 0;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+body>section {
+    background-image: url(page-bg.jpg);
+}
+
+body > section > section {
+    background-image: url(page-bg.jpg);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#main {
+    display: flex;
+    background-image: url("body-bg.png");
+    justify-content: space-between;
+    margin: 0;
+    padding: 2%;
+}
+
+#main > div {
+    align-self:center;
+    
+}
+
+#main > nav > ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    padding-right:10px;
+    margin-right: 130px;
+    //align-items: flex-end;
+}
+
+.headings {
+    font-size:40px;
+
+}
+
+
+
+ a {
+    text-decoration: none;
+     color: grey;
+}
+
+#aboutmain {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width : 1000px;
+    height: 120px;
+}
+
+#aboutmain > header {
+    font-size: 50px; 
+}
+
+
+#aboutmain > div {
+    display:flex;
+    justify-content:space-around;
+    width:13%;
+    
+
+}
+
+.divider {
+    background-image: url('divider.png');
+    padding: 5px;
+}
+
+#aboutbody {
+    display: flex;
+
+}
+
+#idone {
+    padding : 50px;
+    width: 80%;
+    align-self:baseline;
+}
+
+#idtwo {
+    max-width: 1400px;
+    align-self: center;
+    color:grey;
+
+}
+
+#idtwo > ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+}
+
+#exp {
+    height : 80px;
+    font-size: 45px;
+}
+
+#work {
+    height : 80px;
+    font-size: 45px;
+}
+
+
+
+#expbody {
+    display: flex;
+    justify-content : space-around;
+/*     margin : 0px; */
+    padding : 20px; 
+    width : 100%;
+}
+#expbody > div {
+    margin: 5%;
+}
+
+#expbody > div > h1 {
+    font-size:25px;
+    color : grey;
+}
+
+#expbody > div > p {
+    color : grey;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#photos > div {
+    margin: 1%;
+}
+
+#connect {
+    height : 80px;
+    font-size: 45px;
+}
+
+#connectmain {
+    display: flex;
+    justify-content : space-around;
+    align-items: baseline;
+}
+
+#different {
+    max-width: 500px;
+}
+
+
+#zero > div {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    //font-size:25px;
+}
+
+
+
+#zero {
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+
+}
+
+#connectmain > div > header> h1 {
+    font-size: 25px;
+}
+
+
+
+#connectmain > div> ul {
+    list-style: none;
+    display: flex;
+    justify-content : space-around;
+    width: 300px;
+    
+    
+}
+
+#connectmain > div > p {
+    font-size: 20px;
+}
